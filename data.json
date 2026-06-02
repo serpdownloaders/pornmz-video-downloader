@@ -1,0 +1,209 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/pornmz-downloader",
+  "serply_link": "https://serp.ly/pornmz-downloader",
+  "app_name": "Pornmz Video Downloader",
+  "short_description": "Download & Save Pornmz Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Pornmz Downloader is a browser extension built for the short MZ brand identity at pornmz.com. It targets the unusual /video/id=<token> route structure and watches for media surfaced through the embedded iframe or player handoff. The extension is designed around what the page actually exposes — m3u8 playlists or direct mp4 files — without overclaiming what it can do.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/pornmz-downloader-fullscreen-01-ee49a81718.webp",
+    "https://apps.serp.co/media/optimized-products/pornmz-downloader-fullscreen-02-e13ffe0c06.webp",
+    "https://apps.serp.co/media/optimized-products/pornmz-downloader-fullscreen-03-a692ebd8a4.webp",
+    "https://apps.serp.co/media/optimized-products/pornmz-downloader-fullscreen-04-478c1d5c22.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "What URL pattern does this extension target?",
+      "answer": "It targets pornmz.com/video/id=<token> pages directly, which is the distinctive route structure used by PornMZ."
+    },
+    {
+      "question": "Why does the extension emphasize the MZ brand?",
+      "answer": "Because the short PornMZ name is a distinctive part of the site identity and helps users recognize the extension is built specifically for this platform."
+    },
+    {
+      "question": "What kind of media does the extension detect?",
+      "answer": "The extension watches for m3u8 playlists and mp4 files that are surfaced through the embedded player or iframe handoff."
+    },
+    {
+      "question": "Is Pornmz marked as ready for this extension?",
+      "answer": "Yes, the target is listed as target-verified and marked as ready, though some config notes remain stale and a generated stub note is part of the readiness context."
+    },
+    {
+      "question": "Why does the wording stay cautious?",
+      "answer": "Because the packet notes stale app.config, stale unified-app.config, and generated-stub behavior, so the messaging reflects that measured readiness."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Built around the short PornMZ / MZ brand identity rather than generic tube-site phrasing",
+    "Targets pornmz.com/video/id=<token> pages directly for focused detection",
+    "Uses iframe handoff detection to find media surfaced through the embedded player",
+    "Watches for m3u8 playlists and mp4 files when the player exposes them",
+    "Verified target status supports candidate-stage positioning with measured readiness",
+    "Built around the short PornMZ / MZ brand identity for focused targeting",
+    "Targets pornmz.com/video/id=<token> pages directly",
+    "Watches for m3u8 playlists when the player exposes them",
+    "Watches for mp4 files when the player exposes them",
+    "Verified target status supports candidate-stage positioning",
+    "Messaging stays careful because config notes are stale",
+    "Generated stub note remains part of the readiness context",
+    "Observed xiaoshenke.net mention is kept minimal and non-speculative"
+  ],
+  "content": {
+    "why": [
+      "PornMZ uses a distinctive video page structure that sets it apart from other sites. Instead of a standard URL pattern, video pages follow the /video/id=<token> route, and the actual media player is often embedded inside an iframe that loads separately from the main page. This means standard download tools that look for video sources on the initial page load often miss the real content entirely.",
+      "Pornmz Downloader was built specifically for this workflow. It understands that the media handoff happens through the embedded iframe or player surface, and it waits for that handoff to complete before looking for m3u8 playlists or mp4 files. The extension keeps its language honest — it targets the MZ brand identity directly and avoids generic claims that would mislead users about what it can do."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Pornmz and go to a supported video page matching /video/id=<token>.",
+      "Start playback so the extension can detect the media through the embedded iframe.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Open a Pornmz video page using a URL like ``.",
+      "Wait for the page to fully load, including the embedded iframe or player area.",
+      "Start playing the video so the extension can detect the media stream.",
+      "Click the Pornmz Downloader icon in your browser toolbar.",
+      "The popup will show detected media options if available.",
+      "Select the quality or format you prefer from the list.",
+      "Click the download button to start the export.",
+      "Save the completed MP4 file to your device."
+    ],
+    "supported_formats": [
+      "Input: m3u8 playlists and mp4 files surfaced through the embedded player or iframe handoff on Pornmz video pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "People who regularly browse Pornmz video pages and want a dedicated download tool",
+      "Users who understand that Pornmz uses an unusual /video/id=<token> route structure",
+      "Viewers who want downloader messaging tied to the actual MZ-branded route instead of generic tube-site copy",
+      "Anyone who prefers cautious, honest positioning over overconfident download claims"
+    ],
+    "use_cases": [
+      "Download a single video from a Pornmz page for offline viewing",
+      "Archive your favorite Pornmz content to a local media library",
+      "Save videos to watch on devices without reliable internet access",
+      "Collect content for personal reference or study",
+      "Move Pornmz videos to a media server or external storage"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any media on the page Make sure you are on a Pornmz page using the /video/id=<token> route and that the embedded player or iframe has fully loaded. Try starting video playback first.",
+      "The download fails or stops mid-way Check your internet connection and make sure the video is still playing or available on the page. Some media sources may be temporarily unavailable.",
+      "The popup shows no options after the page loads The extension relies on the embedded iframe or player handoff to surface media. Wait for the player to finish loading, then try refreshing the popup.",
+      "The downloaded file does not play correctly Make sure you have a compatible media player that supports MP4 files. Try downloading again with a different quality option if available.",
+      "The extension does not work on certain Pornmz pages Only pages matching the /video/id=<token> route are targeted. Other Pornmz page types may not be supported."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Pornmz page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "PornMZ uses an unusual /video/id=<token> route structure that this extension is specifically built for",
+      "The media handoff happens through an embedded iframe or player surface, so page loading order matters"
+    ],
+    "about": [
+      "PornMZ is a video platform that uses a short MZ brand identity and an unusual /video/id=<token> route structure for its video pages. This extension helps users access the media surfaced through the embedded player handoff on those pages, making it easier to save content for offline use."
+    ]
+  },
+  "serpx_link": "https://serpx.link/pornmz-downloader",
+  "github_topics": [
+    "pornmz-download",
+    "pornmz-downloader",
+    "pornmz-video-downloader",
+    "pornmz-video-downloader-online",
+    "pornmz-video-downloader-mac",
+    "pornmz-video-downloader-window",
+    "pornmz-video-downloader-free",
+    "pornmz-video-downloader-extension",
+    "pornmz-video-downloader-app",
+    "pornmz-video-downloader-chrome",
+    "pornmz-video-downloader-from-url",
+    "how-to-download-pornmz-videos",
+    "how-to-download-pornmz-videos-mac",
+    "how-to-download-pornmz-videos-windows",
+    "how-to-download-pornmz-videos-online",
+    "how-to-download-pornmz-videos-free",
+    "how-to-download-from-pornmz",
+    "how-to-download-videos-from-pornmz",
+    "download-pornmz-videos",
+    "pornmz-video-tutorial",
+    "save-pornmz-videos",
+    "pornmz-video-content-saver",
+    "how-to-download-pornmz-videos-for-free"
+  ],
+  "hashtags": [
+    "#PornmzDownload",
+    "#PornmzDownloader",
+    "#PornmzVideoDownloader",
+    "#PornmzVideoDownloaderOnline",
+    "#PornmzVideoDownloaderMac",
+    "#PornmzVideoDownloaderWindow",
+    "#PornmzVideoDownloaderFree",
+    "#PornmzVideoDownloaderExtension",
+    "#PornmzVideoDownloaderApp",
+    "#PornmzVideoDownloaderChrome",
+    "#PornmzVideoDownloaderFromURL",
+    "#HowToDownloadPornmzVideos",
+    "#HowToDownloadPornmzVideosMac",
+    "#HowToDownloadPornmzVideosWindows",
+    "#HowToDownloadPornmzVideosOnline",
+    "#HowToDownloadPornmzVideosFree",
+    "#HowToDownloadFromPornmz",
+    "#HowToDownloadVideosFromPornmz",
+    "#DownloadPornmzVideos",
+    "#PornmzVideoTutorial",
+    "#SavePornmzVideos",
+    "#PornmzVideoContentSaver",
+    "#HowToDownloadPornmzVideosForFree"
+  ],
+  "youtube_tags": [
+    "Pornmz Download",
+    "Pornmz Downloader",
+    "Pornmz Video Downloader",
+    "Pornmz Video Downloader Online",
+    "Pornmz Video Downloader Mac",
+    "Pornmz Video Downloader Window",
+    "Pornmz Video Downloader Free",
+    "Pornmz Video Downloader Extension",
+    "Pornmz Video Downloader App",
+    "Pornmz Video Downloader Chrome",
+    "Pornmz Video Downloader From URL",
+    "How To Download Pornmz Videos",
+    "How To Download Pornmz Videos Mac",
+    "How To Download Pornmz Videos Windows",
+    "How To Download Pornmz Videos Online",
+    "How To Download Pornmz Videos Free",
+    "How To Download From Pornmz",
+    "How To Download Videos From Pornmz",
+    "Download Pornmz Videos",
+    "Pornmz Video Tutorial",
+    "Save Pornmz Videos",
+    "Pornmz Video Content Saver",
+    "How To Download Pornmz Videos For Free"
+  ]
+}
